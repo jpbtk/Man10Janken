@@ -1,1 +1,14 @@
-
+name: Man10Janken
+version: 1.0.0
+main: com.example.man10janken.Man10Janken
+author: Match_bou
+description: CPUとじゃんけんをするためのMinecraftプラグインです。
+api-version: 1.17
+commands:
+  mja:
+    description: CPUとじゃんけんをプレイします。
+    usage: /mja cpu <賭け金額>
+permissions:
+  man10janken.play:
+    description: プレイヤーがCPUとじゃんけんをプレイすることを許可します。
+    default: true
