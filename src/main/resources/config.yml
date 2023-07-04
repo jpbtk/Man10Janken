@@ -1,0 +1,5 @@
+db:
+  url: "jdbc:mysql://localhost/Man10Janken?useSSL=false"
+  user: "root"
+  password: "password"
+maxBet: "1000000"
